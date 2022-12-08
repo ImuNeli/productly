@@ -404,10 +404,13 @@ a {
 }
 
 .super-hero__container {
+    position: relative;
+    max-width: 1144px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 6px;
     padding-top: 230px;
     padding-bottom: 379px;
     align-items: center;
@@ -438,32 +441,32 @@ a {
 
 .super-hero__item:nth-child(1) {
     position: absolute;
-    top: 54%;
-    left: 10%;
+    top: 53%;
+    left: 1%;
 }
 
 .super-hero__item:nth-child(2) {
     position: absolute;
-    top: 66%;
-    left: 38%;
+    top: 65%;
+    left: 36%;
 }
 
 .super-hero__item:nth-child(3) {
     position: absolute;
     top: 13%;
-    right: 16%;
+    right: 8%;
 }
 
 .super-hero__item:nth-child(4) {
     position: absolute;
-    right: 9%;
-    bottom: 30%;
+    right: 0%;
+    bottom: 32%;
 }
 
 .super-hero__item:nth-child(5) {
     position: absolute;
-    top: 21%;
-    left: 9%;
+    top: 20%;
+    left: 0%;
 }
 
 /* section marketing style */
